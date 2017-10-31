@@ -1,0 +1,238 @@
+.navbar{
+  background-color: #AB2A19;
+  color: white;
+  display: flex;
+  height: 9vh;
+  font-size: 2.1em;
+  font-weight: 800;
+  padding: 8px;
+  width: 100%;
+}
+.logoHolder{
+  background-color: #AB2A19;
+  height: 11vh;
+  width: 25%;
+  float: left;
+  z-index: 2;
+}
+.titlelogoHolder{
+  background-color: #AB2A19;
+  height: 9vh;
+  width: 27%;
+  float: left;
+  z-index: 2;
+}
+.logo{
+  background-color: #AB2A19;
+  background:url('./logo.png');
+  float: right;
+  height:70px;
+  width: 70px;
+  background-repeat: no-repeat;
+}
+.morelogo{
+  background:url('./logo.png');
+  background-color: #AB2A19;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 1vh;
+  height: 75px;
+  width: 75px;
+}
+.shelfhead {
+  background-color: #D34735;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 11vh;
+  width: 100%;
+  line-height: 83px;
+}
+.shelfname{
+  background-color: #D34735;
+  height: 11vh;
+  width: 20%;
+  float: left;
+  padding-left: 25px;
+  z-index: 1;
+}
+.binname{
+  background-color: #ED6B5A;
+  height: 11vh;
+  width: 25%;
+  z-index: 1;
+  float: left;
+  padding-left: 25px;
+}
+.binhead {
+  background-color: #ED6B5A;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 11vh;
+  width: 100%;
+  line-height: 83px;
+}
+
+.shelf{
+  background-color: #D34735;
+  border-radius: 10px ;
+  box-shadow: 8px 8px 5px grey;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 10vh;
+  line-height: 83px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  text-indent: 10%;
+  width: 100%;
+}
+
+.bin{
+  background-color: #ED6B5A;
+  border-radius: 10px;
+  box-shadow: 8px 8px 5px grey;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 10vh;
+  line-height: 83px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  text-indent: 10%;
+  width: 100%;
+}
+.addinv{
+  background-color: #FFB8AF;
+  border-radius: 10px;
+  box-shadow: 8px 8px 5px grey;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 10vh;
+  line-height: 83px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+.edit{
+  background-color: #D8D8D8;
+  border-radius: 10px;
+  box-shadow: 8px 8px 5px grey;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 10vh;
+  line-height: 70px;
+  margin: 10px;
+  text-align: center;
+  width:17%;
+  cursor: pointer;
+}
+.save{
+  background-color: #40F99B;
+  border-radius: 45px;
+  box-shadow: 8px 8px 5px grey;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 10vh;
+  line-height: 70px;
+  margin: 10px;
+  text-align: center;
+  width:17%;
+  cursor: pointer;
+}
+.inputbox{
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+  display: flex;
+  font-size: 1.1em;
+  height: 8vh;
+  line-height: 55px;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  width: 60%;
+}
+.whitebox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+}
+.row{
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  justify-content: center;
+}
+.shelfholder{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  margin: auto;
+  width:40%;
+}
+.blackbox{
+  background-color: black;
+  height: 200px;
+  width: 200px;
+
+}
+.inputleft{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  justify-content: center;
+  width:30%;
+  height: 35vh;
+  float: left;
+}
+.inputright{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 35vh;
+  width: 70%;
+  float: right;
+}
+.bigsave{
+  background-color: #40F99B;
+  border-radius: 10px;
+  box-shadow: 8px 8px 5px grey;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  height: 10vh;
+  line-height: 83px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+.inputboxother{
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+  display: flex;
+  font-size: 1.1em;
+  height: 8vh;
+  line-height: 55px;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+}
